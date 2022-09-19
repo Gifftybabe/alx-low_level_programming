@@ -1,9 +1,9 @@
 **INTRODUCTION**
-	->This is the first readme file for this repo.
+->This is the first readme file for this repo.
 
-	->As a low level programmer, it is expedient all files and directories are arranged for proper use.
+->As a low level programmer, it is expedient all files and directories are arranged for proper use.
 
-_LIST OF DIRECTORIES IN THIS REPO._
+_LIST OF DIRECTORIES IN THIS REPO_
 #
 1. 0x00-hello_world
 #
