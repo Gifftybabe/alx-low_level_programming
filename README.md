@@ -1,18 +1,21 @@
-C is an imperative (procedural) language.
-All the code has to be inside a function.
-C files are source code of your program.
+**INTRODUCTION**
+	->This is the first readme file for this repo.
+
+	->As a low level programmer, it is expedient all files and directories are arranged for proper use.
+
+_LIST OF DIRECTORIES IN THIS REPO._
 #
-Comments
-Begins with /* and ends with */
-Can be inserted anywhere a white-space character
-is allowed
-Comments don’t nest
+1. 0x00-hello_world
 #
-Variables always have a type.
+2. 0x02-functions_nested_loops
 #
-A succession of items of the same type in memory
+3. 0x03-debugging
 #
-Structure is a complex data type declaration that
-defines a physically grouped list of
-variables to be placed under one name
-in a block of memory
+4. 0x04-more_functions_nested_loops
+#
+5. 0x05-Pointers, arrays and strings
+
+**_DO YOU KNOW_**
+	->C is an imperative (procedural) language.
+	->All the code has to be inside a function.
+	->C files are source code of your program.
