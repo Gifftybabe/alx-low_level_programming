@@ -9,27 +9,25 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	int a = 0, b;
+	int x = 0, y;
 
-	while (s[a])
+	while (s[x])
 	{
-		b = 0;
-
-		while (accept[b])
-		{
-
-			if (s[a] == accept[b])
+		y = 0;
+		while (accept[y])
+			if (s[x] == accept[y])
 			{
-				s += a;
+				s += x;
 				return (s);
 			}
 
-			b++;
+			y++;
 		}
 
-		a++;
+		x++;
 
 	}
-	return (NULL);
+	return ('\0');
 
-	}
+}
+
