@@ -10,7 +10,7 @@ data - data item
 
 ![image](https://user-images.githubusercontent.com/105078661/206537822-d96a4e9f-0675-435d-95f5-4781efdcb2c6.png)
 
-## The project is completed withe the below data structure:
+## The project is completed with the below data structure:
 
  * struct dlistint_s - doubly linked list
  * @n: integer
