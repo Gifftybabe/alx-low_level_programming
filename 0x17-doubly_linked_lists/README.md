@@ -1,10 +1,16 @@
-# Doubly linked lists
+![image](https://user-images.githubusercontent.com/105078661/206537314-6976d365-69cc-4c63-bcbb-1af5faf47a8b.png)
 
+A Doubly Linked List (DLL) contains an extra pointer, typically called the previous pointer, together with the next pointer and data which are there in the singly linked list.
 
+A doubly linked list is a type of linked list in which each node consists of 3 components:
 
+*prev - address of the previous node
+data - data item
+*next - address of next node
 
-### More Info
-## Please use this data structure for this project:
+![image](https://user-images.githubusercontent.com/105078661/206537822-d96a4e9f-0675-435d-95f5-4781efdcb2c6.png)
+
+## The project is completed withe the below data structure:
 
  * struct dlistint_s - doubly linked list
  * @n: integer
@@ -28,4 +34,4 @@ typedef struct dlistint_s
 
 
 
-![final](https://static.packt-cdn.com/products/9781785285493/graphics/B05348_05_11.jpg)
+
