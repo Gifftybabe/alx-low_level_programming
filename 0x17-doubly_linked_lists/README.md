@@ -4,9 +4,9 @@ A Doubly Linked List (DLL) contains an extra pointer, typically called the previ
 
 A doubly linked list is a type of linked list in which each node consists of 3 components:
 
-*prev - address of the previous node
-data - data item
-*next - address of next node
+- *prev - address of the previous node
+- *data - data item
+- *next - address of next node
 
 ![image](https://user-images.githubusercontent.com/105078661/206537822-d96a4e9f-0675-435d-95f5-4781efdcb2c6.png)
 
