@@ -31,6 +31,6 @@ Here's How to Write a “Hello World” Bash Script👌
 - What are the differences between static and shared libraries
 - Basic usage nm, ldd, ldconfig
 
-![image](https://user-images.githubusercontent.com/105078661/207132541-3b120594-6a2c-4234-af5d-5804f8655ae7.png)
+![image](https://user-images.githubusercontent.com/105078661/207132930-efcbc5a4-b5b1-4234-baa3-1621dc10584e.png)
 
 ```
