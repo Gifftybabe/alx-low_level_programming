@@ -1,54 +1,36 @@
 # Dynamic_Libraries
-## Neccessary Commands;
-## For the last advanced task. 🐋
-- Go to your root
-- Clone the required repository
-- cd into the cloned repository 
-- get current error message ### ./gm 9 8 10 24 75 9
-- get the function calls used to develop the program about to tampered with. ### ltrace ./gm 9 8 10 24 75 9
-- Having seen it, we use printf to inject our new command(feel free to pick any function call of choice)
-- To see how printf prototypes works  - ### man 3 printf
-- NB: how to know what correct message to print 🤔 ### string gm | less
-- The above  displays the messages required
-### Man 2 write(using this we learn how to use write and what libraries to call)
-- Okay 🙂
-- Now create a C file and call printf (check the image below for clarity)
-- Using the correct prototypes for printf and write...  
-- Now write the required code. 🐋
-- Now to inject the printf function to alter the result of the program 
+## Requirements for the task👇
+- Allowed editors: vi, vim, emacs
+- All your scripts will be tested on Ubuntu 20.04 LTS
+- All your files should end with a new line (why?)
+- The first line of all your files should be exactly #!/bin/bash
+- All your files must be executable
 
-### gcc -fPIC  -c file.c
-### gcc -shared -o file.so file.o
-##### LD_PRELOAD=/"where-gm-islocated"/file.so ./gm 9 8 10 24 75 - 9
-- NB under normal circumstances the required output should print.
+### Scripting
+A bash script is a series of commands written in a file. These are read and executed by the bash program. 
+The program executes line by line. For example, you can navigate to a certain path, create a folder and spawn a process inside it using the command line
 
-9 8 10 24 75 - 9
-Congratulations, you win the Jackpot!
-
-- If not then an error message would occur like 'cannot be preload' or 'cannot open object file'
+- Don't know how to write a bash script?
 
 Don't worry.
-- Not go back to the 0x018-dynamic_libraries
-- Create a C file and repeat number 10 an image will be sent below
-- Now make that file a dynamic Library 
 
-- Now create the required .sh file for the last advanced task you can Google about how to write the shell script to link to your GitHub and access the  dynamic Library. an image will be sent below too to see what you're expected to do. 👍🏽🎊
+Here's How to Write a “Hello World” Bash Script👌
+- Create a new file, hello.sh and open it with nano. ...
+- On the first line specify the interpreter to be used in the code. ...
+- On a new line use echo to print a string of text to the screen. ...
+- Save the code by pressing CTRL + X, then press Y and Enter.
+- Run the code from the terminal.
+
+![image](https://user-images.githubusercontent.com/105078661/207131745-b37038ac-705b-4375-aaad-048e0cb2cf4f.png)
 
 
-![clowners](http://4.bp.blogspot.com/-9rqm8Pg1apY/UZHoC79xXtI/AAAAAAAACOs/0Fp4A4ipUqM/s320/tumblr_mlzp3qgHss1s5xo13o3_r1_1280.jpg)
-![clown](https://preview.redd.it/9wzr2w3hptd31.jpg?auto=webp&s=1b21c70d1458b797ce166108b4a70da0783ffe81)
+### Learning Objectives👍
 
-# Code injection: Win the Giga Millions!
+- What is a dynamic library, how does it work, how to create one, and how to use it
+- What is the environment variable $LD_LIBRARY_PATH and how to use it
+- What are the differences between static and shared libraries
+- Basic usage nm, ldd, ldconfig
 
-I bought a ticket for the Giga Millions and chose those numbers: 9, 8, 10, 24, 75 + 9. Can you make me win the Jackpot?
+![image](https://user-images.githubusercontent.com/105078661/207132541-3b120594-6a2c-4234-af5d-5804f8655ae7.png)
 
-```
-/* Giga Millions program                                                                                    
-  * Players may pick six numbers from two separate pools of numbers:                                                
-  * - five different numbers from 1 to 75 and                                                                       
-  * - one number from 1 to 15                                                                                       
-  * You win the jackpot by matching all six winning numbers in a drawing.                                           
-  * Your chances to win the jackpot is 1 in 258,890,850                                                             
-  *                                                                                                                 
-  * usage: ./gm n1 n2 n3 n4 n5 bonus
 ```
