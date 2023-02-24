@@ -4,8 +4,8 @@ Make is Unix utility that is designed to start execution of a makefile. A makefi
 The makefile contains a list of rules. These rules tell the system what commands you want to be executed. Most times, these rules are commands to compile(or recompile) a series of files. The rules, which must begin in column 1, are in two parts. The first line is called a dependency line and the subsequent line(s) are called actions or commands. The action line(s) must be indented with a tab.
 
 
-RULE:	DEPENDENCY LINE
-- [tab] ACTION LINE(S)
+> RULE:	DEPENDENCY LINE
+> [tab] ACTION LINE(S)
 *The dependency line is made of two parts. The first part (before the colon) are target files and the second part (after the colon) are called source files. It is called a dependency line because the first part depends on the second part. Multiple target files must be separated by a space. Multiple source files must also be separated by a space.
 
 DEPENDENCY LINE:					
