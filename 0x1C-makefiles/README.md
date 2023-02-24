@@ -5,11 +5,11 @@ The makefile contains a list of rules. These rules tell the system what commands
 
 
 RULE:	DEPENDENCY LINE
-[tab]ACTION LINE(S)
+- [tab] ACTION LINE(S)
 The dependency line is made of two parts. The first part (before the colon) are target files and the second part (after the colon) are called source files. It is called a dependency line because the first part depends on the second part. Multiple target files must be separated by a space. Multiple source files must also be separated by a space.
 
 DEPENDENCY LINE:					
-# TARGET FILES:	SOURCE FILES
+- TARGET FILES:	SOURCE FILES
 After the makefile has been created, a program can be (re)compiled by typing make in the correct directory. Make then reads the makefile and creates a dependency tree and takes whatever action is necessary. It will not necessarily do all the rules in the makefile as all dependencies may not need updated. It will rebuild target files if they are missing or older than the dependency files.
 
 Unless directed otherwise, make will stop when it encounters an error during the construction process.
