@@ -1,3 +1,8 @@
+0x1E-search_algorithms
+
+![image](https://user-images.githubusercontent.com/105078661/231563844-bd7aff58-1b81-41b7-8972-8046a19c508e.png)
+
+
 Binary Search is a searching algorithm for finding an element's position in a sorted array.
 
 In this approach, the element is always searched in the middle of a portion of an array.
@@ -6,28 +11,11 @@ Binary search can be implemented only on a sorted list of items. If the elements
 
 
 Binary Search Algorithm can be implemented in two ways which are discussed below.
-### Recursive Method
-The recursive method follows the divide and conquer approach.
+- Recursive Method
+- Iterative Method
 
-binarySearch(arr, x, low, high)
-    if low > high
-        return False 
-    else
-        mid = (low + high) / 2 
-        if x == arr[mid]
-            return mid
-        else if x > arr[mid]        // x is on the right side
-            return binarySearch(arr, x, mid + 1, high)
-        else                               // x is on the left side
-            return binarySearch(arr, x, low, mid - 1)
-
-### Iterative Method
-
-do until the pointers low and high meet each other.
-    mid = (low + high)/2
-    if (x == arr[mid])
-        return mid
-    else if (x > arr[mid]) // x is on the right side
-        low = mid + 1
-    else                       // x is on the left side
-        high = mid - 1
+### Learning Objectives
+- What is a search algorithm
+- What is a linear search
+- What is a binary search
+- What is the best search algorithm to use depending on your needs
