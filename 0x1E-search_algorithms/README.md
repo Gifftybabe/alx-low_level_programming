@@ -1,4 +1,4 @@
-0x1E-search_algorithms
+# 0x1E-search_algorithms
 
 ![image](https://user-images.githubusercontent.com/105078661/231563844-bd7aff58-1b81-41b7-8972-8046a19c508e.png)
 
